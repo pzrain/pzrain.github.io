@@ -18,18 +18,21 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: pzrain
+title: pzrain's notes
+favicon: "favicon.jpg"
 email: pzrain@gmail.com
-description: >- # this means to ignore newlines until "baseurl:"
-  Blog
+description: "Blog"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  pzrain
 
 # Build settings
-remote_theme: pmarsceill/just-the-docs
+theme: "just-the-docs"
+# remote_theme: pmarsceill/just-the-docs
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
+markdown: kramdown
 
 # Exclude from processing.
 # The following items will not be processed, by default.
