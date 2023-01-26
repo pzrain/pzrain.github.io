@@ -18,7 +18,7 @@ permalink: /COMAP/PSO/
 
 * **记号与迭代方程**
 
-  第$$i$$个微粒表示为$$X_i=(x_{i1},x_{i2},\cdots,x_{iD})$$，其经过的最好位置（Personal Best，即适应度最大的位置）记为$$P_i=(p_{i1},p_{i2},\cdots,p_{iD})$$。群体中所有微粒经过的最好位置记为$$P_g$$。微粒$$i$$的速度记为$$v_i=(v_{i1},v_{i2},\cdots,v_{iD})$$。对每一代，微粒位置和速度的更新规则如下：
+  第$$i$$个微粒表示为$$X_i=(x_{i1},x_{i2},\cdots,x_{iD})$$，其经过的最好位置（*Personal Best*，即适应度最大的位置）记为$$P_i=(p_{i1},p_{i2},\cdots,p_{iD})$$。群体中所有微粒经过的最好位置记为$$P_g$$。微粒$$i$$的速度记为$$v_i=(v_{i1},v_{i2},\cdots,v_{iD})$$。对每一代，微粒位置和速度的更新规则如下：
 
   $$
   \begin{align}
@@ -90,6 +90,11 @@ for i=1:m
     end
 end
 curG = 0;
+```
+
+PSO的更新迭代：
+
+```matlab
 % start PSO
 while (curG < maxG)
     for i=1:m
@@ -112,7 +117,6 @@ while (curG < maxG)
     end
     curG = curG + 1;
 end
-
 disp('optimal solution correct prediction = ')
 disp(vg)
 ```
