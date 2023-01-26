@@ -9,7 +9,7 @@ permalink: /COMAP/GA/
 
 ## 算法原理
 
-候选解（编码为0/1序列）$$\rightarrow$$ 进化（评价适应度）$$\begin{cases}选择\\\ 繁殖\end{cases}$$
+候选解（编码为0/1序列）$$\rightarrow$$ 进化（评价适应度）$$\begin{cases}选择\\ 繁殖\end{cases}$$
 
 * 选择：根据新个体的适应度进行，但不应完全以适应度高低为导向，因为单纯选择适应度高的个体将可能导致算法快速收敛到**局部最优解**而非全局最优解（**早熟**）。策略：适应度越高，被选择的机会越高。
 * 繁殖：交配（交配概率、交配点位置）、突变（突变常数）
@@ -157,7 +157,7 @@ function scores = traveling_salesman_fitness(x, distances)
     end
 end
 ```
-
+算法最终求出的解
 <img src="/../../../fig/res.png">
 
 ## 适用的范围
