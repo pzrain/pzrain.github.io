@@ -6,7 +6,7 @@ nav_order: 7
 permalink: /COMAP/GM/
 ---
 
-# 7.灰色预测（Gray Model，GM）
+# 灰色预测（Gray Model，GM）
 
 ## 算法原理
 
