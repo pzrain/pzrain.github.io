@@ -61,6 +61,9 @@ permalink: /COMAP/Regression/
   b2 = nonlinfit2.Coefficients.Estimate(2,1);
   Y2 = b1 * x.^b2;
   ```
+分别使用对数和指数进行一元非线性回归的一个比较如下：
+
+<img src="/../../../fig/unary_regress.png">
 
 ## 2.多元回归
 
