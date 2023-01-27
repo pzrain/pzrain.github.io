@@ -46,7 +46,7 @@ has_toc: false
 [Read More](/COMAP/GM){: .btn }
 
 ## 8.ARIMA
-$$\mathtt{ARIMA}$$模型分为三个部分，$$\mathtt{AR}$$拟合历史观测值，$$\mathtt{MA}$$部分拟合误差，$$\mathtt{I}$$对序列进行差分以增强稳定性。$$\mathtt{ARIMA}$$模型可便捷应用于对时间序列的预测。
+$$\mathtt{ARIMA}$$模型分为三个部分，$$\mathtt{AR}$$部分拟合历史观测值，$$\mathtt{MA}$$部分拟合误差，$$\mathtt{I}$$部分对序列进行差分以增强稳定性。$$\mathtt{ARIMA}$$模型可便捷应用于对时间序列的预测。
 
 [Read More](/COMAP/ARIMA){: .btn }
 
