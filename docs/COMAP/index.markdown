@@ -44,3 +44,13 @@ has_toc: false
 灰色预测算法，是一种对含有不确定性系统进行预测的方法。其通过对原始数据序列的处理、挖掘，建立微分方程模型。较常用于对连续、平滑序列的预测。
 
 [Read More](/COMAP/GM){: .btn }
+
+## 8.ARIMA
+$$\mathtt{ARIMA}$$模型分为三个部分，$$\mathtt{AR}$$拟合历史观测值，$$\mathtt{MA}$$部分拟合误差，$$\mathtt{I}$$对序列进行差分以增强稳定性。$$\mathtt{ARIMA}$$模型可便捷应用于对时间序列的预测。
+
+[Read More](/COMAP/ARIMA){: .btn }
+
+## 9.Regression
+回归分析。较为常用的回归分析包括一元回归、多元回归、逻辑斯蒂回归以及逐步回归等。
+
+[Read More](/COMAP/Regression){: .btn }

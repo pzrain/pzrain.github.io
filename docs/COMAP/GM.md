@@ -205,6 +205,7 @@ c = [a b]';
 A = [89677, 99215, 109655. 120333. 135823, 159878, 182321, 209407, 246619, 300670]; % initial sequence
 B = cumsum(A);
 n = length(A);
+m = 10; % predict for the next m items
 for i=1:(n-1)
     C(i) = (B(i) + B(i+1)) / 2;
 end
@@ -216,11 +217,11 @@ c = (E*E')\(E*D);      % use least square to calculate a,b
 c = c';
 a = c(1); b = c(2);
 F = []; F(1) = A(1);  % initial condition
-for i=2:(n+10)
+for i=2:(n+m)
     F(i) = (A(1) - b/a)/exp(a*(i-1)) + b/a;
 end
 G = []; G(1) = A(1);
-for i=2:(n+10)
+for i=2:(n+m)
     G(i) = F(i) - F(i-1);  % G is the prediction for A
 end
 ```
