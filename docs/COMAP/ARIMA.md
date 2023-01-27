@@ -22,17 +22,17 @@ $$
 X_t-\alpha_1X_{t-1}-\cdots-\alpha_{p'}X_{t-p'}=\epsilon_t+\theta_1\epsilon_{t-1}+\cdots+\theta_q\epsilon_{t-q}
 $$
 
-引入滞后算子$$L$$，可变形为：
+引入滞后算子$$L$$，可简化为：
 
 $$
 (1-\sum^{p'}_{i=1}\alpha_iL^i)X_t=(1+\sum_{i=1}^q\theta_iL^i)\epsilon_t
 $$
 
-其中，$$\alpha_i$$是$$\mathtt{AR}$$模型中的参数，$$\theta_i$$为$$\mathtt{MA}$$模型中的参数，$$\epsilon_i$$为误差项。
+其中，$$X_t$$为时间序列，$$\epsilon_i$$为误差项，$$\alpha_i$$为$$\mathtt{AR}$$模型中的参数，$$\theta_i$$为$$\mathtt{MA}$$模型中的参数。
 
 ### 差分
 
-统计学中的差分是一种应用于非平稳时间序列到平稳时间序列的变换，目的是使其在均值意义上更加平稳，即消除非恒定的趋势。对于季节性$$\mathtt{ARIMA}$$，需要采用季节性差分，也即$$X_t-X_{t-T}$$。
+统计学中的差分是一种应用于非平稳时间序列到平稳时间序列的变换，目的是使其在均值意义上更加平稳，即消除非恒定的趋势。$$\mathtt{ARIMA}$$模型中，一般采用一阶或二阶差分，以增强原时间序列的平稳性。对于季节性$$\mathtt{ARIMA}$$，需要采用季节性差分，也即$$X_t-X_{t-T}$$。
 
 ### $$\mathtt{AR}$$模型与$$\mathtt{MA}$$模型
 
