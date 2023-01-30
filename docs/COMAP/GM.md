@@ -154,7 +154,7 @@ $$。
    <table border="1">
    	<tr style="font-weight:bold">
        	<td>等级</td>
-           <td>相对误差</td>
+           <td>相对残差</td>
            <td>方差比</td>
            <td>小误差概率</td>
        </tr>    
