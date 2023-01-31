@@ -11,3 +11,5 @@ has_toc: false
 # COMAP 论文研读整理
 
 ## [2019 C The Opioid Crisis](/COMAP/paper/2019C)
+
+## [2019 D Time to leave the Louvre](/COMAP/paper/2019D)
