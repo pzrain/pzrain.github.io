@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Paper
+title: Paper Analysis
 has_children: true
 heading_anchors: true
 permalink: /COMAP/paper/
@@ -13,3 +13,5 @@ has_toc: false
 ## [2019 C The Opioid Crisis](/COMAP/paper/2019C)
 
 ## [2019 D Time to leave the Louvre](/COMAP/paper/2019D)
+
+## [2019 E What is the Cost of Environmental Degradation?](/COMAP/paper/2019E)
