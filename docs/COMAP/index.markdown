@@ -54,3 +54,8 @@ $$\mathtt{ARIMA}$$模型分为三个部分，$$\mathtt{AR}$$部分拟合历史�
 回归分析。较为常用的回归分析包括一元回归、多元回归、逻辑斯蒂回归以及逐步回归等。
 
 [Read More](/COMAP/Regression){: .btn }
+
+## 10.Statistical Machine Learning
+统计机器学习，是采用机器学习的方法，提取待学习的数据的特征，抽象出数据的模型，进而对数据进行分析和预测。常用的统计机器学习方法，包括$$K-$$近邻、朴素贝叶斯方法、支持向量机以及决策树等。
+
+[Read More](/COMAP/SML){: .btn }
