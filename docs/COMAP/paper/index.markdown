@@ -17,3 +17,5 @@ has_toc: false
 ## [2019 E What is the Cost of Environmental Degradation?](/COMAP/paper/2019E)
 
 ## [2019 F Universal, Decentralized, Digital Currency: Is it possible?](/COMAP/paper/2019F)
+
+## [2022 C Trading Strategies](/COMAP/paper/2022C)
