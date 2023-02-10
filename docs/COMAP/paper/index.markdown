@@ -19,3 +19,5 @@ has_toc: false
 ## [2019 F Universal, Decentralized, Digital Currency: Is it possible?](/COMAP/paper/2019F)
 
 ## [2022 C Trading Strategies](/COMAP/paper/2022C)
+
+## [2022 D Data Paralysis? Use Our Analysis!](/COMAP/paper/2022D)
