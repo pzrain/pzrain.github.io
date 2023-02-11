@@ -21,3 +21,5 @@ has_toc: false
 ## [2022 C Trading Strategies](/COMAP/paper/2022C)
 
 ## [2022 D Data Paralysis? Use Our Analysis!](/COMAP/paper/2022D)
+
+## [2022 E Forestry for Carbon Sequestration](/COMAP/paper/2022E)
