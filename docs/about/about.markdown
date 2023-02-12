@@ -4,6 +4,9 @@ permalink: /
 title: About
 nav_order: 1
 ---
+<head>
+<meta name="google-site-verification" content="_jHp7n6oVE67pUXWPIOQ5dsfFuDQn9OPHhA-0vTVksg" />
+</head>
 
 # Hi, I'm pzrain!
 <p style="font-family: 'Comic Sans MS'; font-weight: 2em">coding & dating</p>
